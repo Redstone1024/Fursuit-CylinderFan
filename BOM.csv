@@ -25,7 +25,7 @@ Electronics,4,NTMFS5C670NLT1G,Chip MOSFET,DFN-8(5X6),Q2 Q3 Q4 Q5,C179626,
 Electronics,2,5mOhm 1%,Chip Resistor,1206,R1 R9,C723507,Sampling resistor requires the use of high-precision low-temperature drift metal film resistors.
 Electronics,1,1kOhm,Chip Resistor,603,R12,C25585,"Select Constant Current mode, see IP2368 manual for details."
 Electronics,0,NC,Chip Resistor,603,R13,NC,"Select Normal Li-Ion Battery Mode, see IP2368 manual for details."
-Electronics,1,15kOhm 1%,Chip Resistor,603,R14,C22809,"Select 3A constant current, see IP2368 manual for details."
+Electronics,1,10kOhm 1%,Chip Resistor,603,R14,C22809,"Select 2A constant current, see IP2368 manual for details."
 Electronics,1,10kOhm 1%,Chip Resistor,603,R15,C25804,"Select 4.20V charging voltage, see IP2368 manual for details."
 Electronics,1,6.2kOhm 1%,Chip Resistor,603,R16,C4260,"Select 5000mAH battery capacity, see IP2368 manual for details."
 Electronics,1,9.1kOhm,Chip Resistor,603,R17,C23260,"Select Triple String Mode, see IP2368 manual for details."
