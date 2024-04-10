@@ -1,10 +1,8 @@
 Category,Qty,Value,Device,Package,Parts,JLC Number,Notes
 Hardware,1,DV05028B12U,Server Inverter PWM Cooling Fan,5028,Master,Taobao,Detailed models refer to drawings.
 Hardware,4,M6x2 N52,RuFeBe Magnet,Print Pause Insert,Master,Taobao,
-Hardware,4,M3x8 SHCS,Socket Head Cap Screw,Screw Insert,Master,Taobao,
-Hardware,4,M3 Heatset Insert,Heatset Insert,Heatset Insert,Master,Taobao,
-Hardware,4,M2x12 BHCS,Button Head Cap Screw,Screw Insert,Electronic,Taobao,
-Hardware,2,M2x16,Copper Pillar,Screw Insert,Electronic,Taobao,
+Hardware,6,M3x8 SHCS,Socket Head Cap Screw,Screw Insert,Master,Taobao,
+Hardware,6,M3 Heatset Insert,Heatset Insert,Heatset Insert,Master,Taobao,
 Electronics,2,220uF,Solid Capacitor,PTH,C1 C2,C2981462,
 Electronics,6,22uF,Chip Capacitor,1210,C3 C4 C5 C6 C7 C8,C5204920,
 Electronics,3,1uF,Chip Capacitor,603,C9 C14 C21,C59302,
