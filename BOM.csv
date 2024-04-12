@@ -1,44 +1,47 @@
-Category,Qty,Value,Device,Package,Parts,JLC Number,Notes
-Hardware,1,DV05028B12U,Server Inverter PWM Cooling Fan,5028,Master,Taobao,Detailed models refer to drawings.
-Hardware,4,M6x2 N52,RuFeBe Magnet,Print Pause Insert,Master,Taobao,
-Hardware,6,M3x8 SHCS,Socket Head Cap Screw,Screw Insert,Master,Taobao,
-Hardware,6,M3 Heatset Insert,Heatset Insert,Heatset Insert,Master,Taobao,
-Electronics,2,220uF,Solid Capacitor,PTH,C1 C2,C2981462,
-Electronics,6,22uF,Chip Capacitor,1210,C3 C4 C5 C6 C7 C8,C5204920,
-Electronics,3,1uF,Chip Capacitor,603,C9 C14 C21,C59302,
-Electronics,2,1.5nF,Chip Capacitor,603,C10 C11,C1595,
-Electronics,6,100nF,Chip Capacitor,603,C12 C13 C15 C16 C17 C18,C30926,
-Electronics,3,2.2uF,Chip Capacitor,603,C19 C20 C22,C99228,
-Electronics,1,10uF,Chip Capacitor,1206,C23,C13585,
-Electronics,2,30V,TVS Diode,SOD-123FL,D1 D2,C364281,
-Electronics,1,TYPE-C-16P-FH,Type-C Connector,SMD,J1,C709357,Detailed models refer to drawings.
-Electronics,2,2 Pin,XH Pin Header,PTH,JP1 JP2,C5341201,Detailed models refer to drawings.
-Electronics,1,4 Pin,2510 Pin Header,PTH,JP3,Taobao,https://m.tb.cn/h.5xQs6Mhxx7MnwSl?tk=3AZoWoS7zzc
-Electronics,1,5.6uH,Buck-Boost Inductor,12XX,L1,C408522,
-Electronics,1,Green,Chip LED,603,LED1,C84267,Greater than 65W Indicator (This is almost impossible to happen).
-Electronics,1,Red,Chip LED,603,LED2,C84263,Battery charging indicator.
-Electronics,1,Blue,Chip LED,603,LED3,C84266,Battery full indicator.
-Electronics,1,RU3030M2,Chip MOSFET,DFN-8(3X3),Q1,C148386,
-Electronics,4,NTMFS5C670NLT1G,Chip MOSFET,DFN-8(5X6),Q2 Q3 Q4 Q5,C179626,
-Electronics,2,5mOhm 1%,Chip Resistor,1206,R1 R9,C723507,Sampling resistor requires the use of high-precision low-temperature drift metal film resistors.
-Electronics,1,1kOhm,Chip Resistor,603,R12,C25585,"Select Constant Current mode, see IP2368 manual for details."
-Electronics,0,NC,Chip Resistor,603,R13,NC,"Select Normal Li-Ion Battery Mode, see IP2368 manual for details."
-Electronics,1,10kOhm 1%,Chip Resistor,603,R14,C22809,"Select 2A constant current, see IP2368 manual for details."
-Electronics,1,10kOhm 1%,Chip Resistor,603,R15,C25804,"Select 4.20V charging voltage, see IP2368 manual for details."
-Electronics,1,6.2kOhm 1%,Chip Resistor,603,R16,C4260,"Select 5000mAH battery capacity, see IP2368 manual for details."
-Electronics,1,9.1kOhm,Chip Resistor,603,R17,C23260,"Select Triple String Mode, see IP2368 manual for details."
-Electronics,2,10kOhm,Chip Resistor,603,R18 R22,C15401,
-Electronics,3,100Ohm,Chip Resistor,603,R19 R20 R21,C25201,
-Electronics,2,10Ohm 1%,Chip Resistor,603,R2 R10,C22859,
-Electronics,2,2Ohm,Chip Resistor,603,R3 R4,C25225,0Ohm can be used instead.
-Electronics,5,0Ohm,Chip Resistor,603,R5 R6 R7 R8 R11,C15402,
-Electronics,2,0Ohm,Chip Resistor,603,R23 R24,C15402,Used to adjust the upper/lower bound of the potentiometer to control the minimum/maximum fan speed.
-Electronics,1,0Ohm,Chip Resistor,603,R25 R26,C15402,"Used to select between using the normal PWM signal and the complementary PWM signal, Only one of these needs to be installed."
-Electronics,1,IP2368_BZ/IP2368_COUT,Chip IC,QFN-48(7X7),U1,Taobao,IP2368_COUT is an upgraded version with added bi-directional charging and discharging capabilities.
-Electronics,1,AP2204K-5.0TRG1,Chip LDO,SOT23-5,U2,C112031,
-Electronics,1,GP9101-F20K-L5H5-SW,Chip IC,SOP-8,U3,C20415753,L5H5 Indicates a direct 0%/100% duty cycle PWM output for the lowest/highest 5%.
-Electronics,1,RV097NS R1S1 10kOhm,Potentiometer,PTH,VR1,Taobao,https://m.tb.cn/h.5xQtCXDX8bdXLJV?tk=aTwHWoS8oQx
-Electronics,3,5000mAH,Li-ion Battery,21700,Battery,Taobao,
-Electronics,1,2 Pin,XH Pin,Wiring ,JP1,Taobao,https://m.tb.cn/h.5xA4rsZ7O6otBoX?tk=l3hIWoSk1EH
-Module,1,3S 12.6V,Li-ion Battery Protection Module,Wiring ,JP1,Taobao,https://m.tb.cn/h.5xAeXbW3B9YVp9a?tk=P89VWoSj9sX
-Module,1,3S 12.6V,Li-ion battery level indicator Module,Wiring ,JP2,Taobao,https://m.tb.cn/h.5C8AmuhibY3OzK3?tk=SOJpWoS8mzm
+Category,Qty,Value,Device,Package,Parts,JLC Number,Cost (RMB),Total (RMB),Notes
+Hardware,1,DV05028B12U,Server Inverter PWM Cooling Fan,5028,Master,Taobao,21,21,Detailed models refer to drawings.
+Hardware,4,M6x2 N52,RuFeBe Magnet,Print Pause Insert,Master,Taobao,0.3,1.2,
+Hardware,6,M3x8 SHCS,Socket Head Cap Screw,Screw Insert,Master,Taobao,0.06,0.36,
+Hardware,6,M3 Heatset Insert,Heatset Insert,Heatset Insert,Master,Taobao,0.142,0.852,
+Electronics,1,6.8x6.8,PCB,-,-,JLC,4,4,
+Electronics,2,220uF,Solid Capacitor,PTH,C1 C2,C2981462,1.302545,2.60509,
+Electronics,6,22uF,Chip Capacitor,1210,C3 C4 C5 C6 C7 C8,C5204920,1.1356,6.8136,
+Electronics,3,1uF,Chip Capacitor,603,C9 C14 C21,C59302,0.033038,0.099114,
+Electronics,2,1.5nF,Chip Capacitor,603,C10 C11,C1595,0.01328,0.02656,
+Electronics,6,100nF,Chip Capacitor,603,C12 C13 C15 C16 C17 C18,C30926,0.014161,0.084966,
+Electronics,3,2.2uF,Chip Capacitor,603,C19 C20 C22,C99228,0.196958,0.590874,
+Electronics,1,10uF,Chip Capacitor,1206,C23,C13585,0.211861,0.211861,
+Electronics,2,30V,TVS Diode,SOD-123FL,D1 D2,C364281,0.16685,0.3337,
+Electronics,1,TYPE-C-16P-FH,Type-C Connector,SMD,J1,C709357,0.537857,0.537857,Detailed models refer to drawings.
+Electronics,2,2 Pin,XH Pin Header,PTH,JP1 JP2,C5341201,0.10188,0.20376,Detailed models refer to drawings.
+Electronics,1,4 Pin,2510 Pin Header,PTH,JP3,Taobao,0.08,0.08,https://m.tb.cn/h.5xQs6Mhxx7MnwSl?tk=3AZoWoS7zzc
+Electronics,1,5.6uH,Buck-Boost Inductor,12XX,L1,C408522,4.49,4.49,
+Electronics,1,Green,Chip LED,603,LED1,C84267,0.096338,0.096338,Greater than 65W Indicator (This is almost impossible to happen).
+Electronics,1,Red,Chip LED,603,LED2,C84263,0.059304,0.059304,Battery charging indicator.
+Electronics,1,Blue,Chip LED,603,LED3,C84266,0.094908,0.094908,Battery full indicator.
+Electronics,1,RU3030M2,Chip MOSFET,DFN-8(3X3),Q1,C148386,1.26387,1.26387,
+Electronics,4,NTMFS5C670NLT1G,Chip MOSFET,DFN-8(5X6),Q2 Q3 Q4 Q5,C179626,3.226276,12.905104,
+Electronics,2,5mOhm 1%,Chip Resistor,1206,R1 R9,C723507,1.049,2.098,Sampling resistor requires the use of high-precision low-temperature drift metal film resistors.
+Electronics,1,1kOhm,Chip Resistor,603,R12,C25585,0.005449,0.005449,"Select Constant Current mode, see IP2368 manual for details."
+Electronics,0,NC,Chip Resistor,603,R13,NC,0,0,"Select Normal Li-Ion Battery Mode, see IP2368 manual for details."
+Electronics,1,10kOhm 1%,Chip Resistor,603,R14,C22809,0.006522,0.006522,"Select 2A constant current, see IP2368 manual for details."
+Electronics,1,10kOhm 1%,Chip Resistor,603,R15,C25804,0.005732,0.005732,"Select 4.20V charging voltage, see IP2368 manual for details."
+Electronics,1,6.2kOhm 1%,Chip Resistor,603,R16,C4260,0.005976,0.005976,"Select 5000mAH battery capacity, see IP2368 manual for details."
+Electronics,1,9.1kOhm,Chip Resistor,603,R17,C23260,0.006084,0.006084,"Select Triple String Mode, see IP2368 manual for details."
+Electronics,2,10kOhm,Chip Resistor,603,R18 R22,C15401,0.005462,0.010924,
+Electronics,3,100Ohm,Chip Resistor,603,R19 R20 R21,C25201,0.005427,0.016281,
+Electronics,2,10Ohm 1%,Chip Resistor,603,R2 R10,C22859,0.005672,0.011344,
+Electronics,2,2Ohm,Chip Resistor,603,R3 R4,C25225,0.00674,0.01348,0Ohm can be used instead.
+Electronics,5,0Ohm,Chip Resistor,603,R5 R6 R7 R8 R11,C15402,0.005373,0.026865,
+Electronics,2,0Ohm,Chip Resistor,603,R23 R24,C15402,0.005373,0.010746,Used to adjust the upper/lower bound of the potentiometer to control the minimum/maximum fan speed.
+Electronics,1,0Ohm,Chip Resistor,603,R25 R26,C15402,0.005373,0.005373,"Used to select between using the normal PWM signal and the complementary PWM signal, Only one of these needs to be installed."
+Electronics,1,IP2368_BZ/IP2368_COUT,Chip IC,QFN-48(7X7),U1,Taobao,10,10,IP2368_COUT is an upgraded version with added bi-directional charging and discharging capabilities.
+Electronics,1,AP2204K-5.0TRG1,Chip LDO,SOT23-5,U2,C112031,0.9611,0.9611,
+Electronics,1,GP9101-F20K-L5H5-SW,Chip IC,SOP-8,U3,C20415753,2.98,2.98,L5H5 Indicates a direct 0%/100% duty cycle PWM output for the lowest/highest 5%.
+Electronics,1,RV097NS R1S1 10kOhm,Potentiometer,PTH,VR1,Taobao,0.9,0.9,https://m.tb.cn/h.5xQtCXDX8bdXLJV?tk=aTwHWoS8oQx
+Electronics,0,5000mAH,Li-ion Battery,21700,Battery,Taobao,16.9,0,
+Electronics,0,2 Pin,XH Pin,Wiring,JP1,Taobao,0.02,0,https://m.tb.cn/h.5xA4rsZ7O6otBoX?tk=l3hIWoSk1EH
+Module,0,3S 12.6V,Li-ion Battery Protection Module,Wiring,JP1,Taobao,6.33,0,https://m.tb.cn/h.5xAeXbW3B9YVp9a?tk=P89VWoSj9sX
+Module,1,3S 12.6V,Li-ion battery level indicator Module,Wiring,JP2,Taobao,6.5,6.5,https://m.tb.cn/h.5C8AmuhibY3OzK3?tk=SOJpWoS8mzm
+Filament,0.01,1KG,TPU,-,-,Taobao,100,1,
+Filament,0.32,1KG,PLA,-,-,Taobao,29.9,9.568,
