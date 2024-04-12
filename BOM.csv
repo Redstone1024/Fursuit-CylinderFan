@@ -43,5 +43,6 @@ Electronics,0,5000mAH,Li-ion Battery,21700,Battery,Taobao,16.9,0,
 Electronics,0,2 Pin,XH Pin,Wiring,JP1,Taobao,0.02,0,https://m.tb.cn/h.5xA4rsZ7O6otBoX?tk=l3hIWoSk1EH
 Module,0,3S 12.6V,Li-ion Battery Protection Module,Wiring,JP1,Taobao,6.33,0,https://m.tb.cn/h.5xAeXbW3B9YVp9a?tk=P89VWoSj9sX
 Module,1,3S 12.6V,Li-ion battery level indicator Module,Wiring,JP2,Taobao,6.5,6.5,https://m.tb.cn/h.5C8AmuhibY3OzK3?tk=SOJpWoS8mzm
+Module,1,3S 12.6V XH2.54 Female No. 2 Wire Sequence,Lithium Battery Pack,Wiring,JP1,Taobao,79,79,https://m.tb.cn/h.5ArwGGE8BjNeA4H?tk=7LZaWqBgcbV
 Filament,0.01,1KG,TPU,-,-,Taobao,100,1,
 Filament,0.32,1KG,PLA,-,-,Taobao,29.9,9.568,
