@@ -24,9 +24,12 @@ You can refer to the following procedure to verify that the PCB is working, and 
 1. Ensure that there is **no shorts** for C1 C2 C23 and that their resistance is at the MOhm level.
 2. Ensure that there are **no false shorts** between the IP2368 and Type-C pins and to GND.
 3. Ensure LEDs are oriented and colored correctly.
-4. When connected to a standard Type-C PD power supply and **without** battery, ensure the power supply should be around **20V** and **0.6W**.
+4. When connected to a standard Type-C PD power supply and **without** battery.
+    1. Ensure the power supply should be around **20V**.
+	2. Ensure the power supply should be around **0.6W**.
+	3. Ensure the C2 voltage should be around **12.6V**.
 5. Insert a battery of less than **50%** capacity, ensure the red light blinks **4** times and then goes out.
-6. When connected to a standard Type-C PD power supply with a **50%** capacity battery.
+6. When connected to a standard Type-C PD power supply with a **50%** capacity battery (**Pay attention to high temperature**).
 	1. Ensure the red light comes on quickly and without blinking.
 	2. Within IC protocol negotiation, ensure the power supply should be around **0.6W**.
 	3. After IC protocol negotiation, ensure the power supply should be about **24W** (12W for 5V, 9V, 12V, 15V).
