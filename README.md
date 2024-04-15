@@ -36,6 +36,9 @@ You can refer to the following procedure to verify that the PCB is working, and 
 	4. After IC protocol negotiation, ensure the voltage across R9 should be **10mV** (**right** end is positive).
 7. After unplugging the standard Type-C PD power supply, ensure the red light goes off in about 1 second.
 8. When the battery is fully charged, ensure the red light will be off and the blue light wull be on.
+9. Ensure Type-C can support PD3.0 30W, APPEL 2.4A, BC1.2DCP, QC3.0 5V-12V, AFC 25W, FCP 24W, SCP 25W, etc.
+10. Connect the fan and make sure the fan can rotate and adjust the speed properly.
+11. Ensure the battery level meter can correctly display the battery level.
 
 ### 3D Printed Parts
 
