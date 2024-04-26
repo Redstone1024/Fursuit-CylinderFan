@@ -48,6 +48,8 @@ You can refer to the following procedure to verify that the PCB is working, and 
 
 **CylinderFan-Master-Body.stl** - Position the fan upward and add support to the lower **plane** at the lanyard.
 
+**CylinderFan-Master-FanMount.stl** - Add a cylinder to the large center hole, set up layer 0 top, bottom, and walls with 15% honeycomb fill.
+
 **CylinderFan-Nozzle-\*.stl** - Add support to the outer circle below. Pause the print and add the magnet while the magnet hole closes the layer.
 
 **CylinderFan-Electronic-Body.stl** - Print the LED translucent faces with a white filament. Add support to bottom slide.
