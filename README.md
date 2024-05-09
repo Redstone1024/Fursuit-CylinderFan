@@ -61,3 +61,21 @@ You can refer to the following procedure to verify that the PCB is working, and 
 Just assemble according to CAD drawings.
 
 Be careful **NOT** to allow parts to run over, wrap around, or rub the wires.
+
+### FAQ
+
+**Q**: Why is the red light always on and not off or higher than a second when I remove the power while charging?
+
+**A**: Major MOSFET G-pin is disconnected. Resolder the main MOSFETs and make sure there is enough tin in the G-pin.
+
+**Q**: Why is there a large number of unsupported protocols during protocol detection?
+
+**A**: Type-C signal pin is disconnected or IP2368 is disconnected. Resolder them reference [Link](https://www.myredstone.top/archives/5215).
+
+**Q**: Why does the protocol detection show that QC3.0 12V is not supported?
+
+**A**: Major MOSFET G-pin is disconnected. Resolder the main MOSFETs and make sure there is enough tin in the G-pin.
+
+**Q**: Why does the red light not go out and the blue light not come on after a full charge?
+
+**A**: If the red light does not flash when the battery is inserted, the capacitor was charged when the battery was replaced and did not recognize the new battery correctly. Just disconnect the battery and wait for the capacitor to discharge and reinsert it. If the red light blinks four times when the battery is inserted, it means that the MOSFET G-pin is disconnected, so re-solder them.
