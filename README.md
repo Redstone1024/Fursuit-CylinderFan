@@ -21,7 +21,7 @@ You can refer to the following procedure to verify that the PCB is working, and 
 
 > **Note**: If your Type-C PD power supply is unable to detect the current status, you can apply an adjustable power supply directly on the Type-C or C23 (**left** end is positive). But don't forget to test if it still works when connected to a standard Type-C PD power supply.
 
-1. Ensure that there is **no shorts** for C1 C2 C23 and that their resistance is at the MOhm level.
+1. Ensure that there is **no shorts** for C1 C2 C23 and that their resistance is at the MOhm level (C23 is at the kOhm level).
 2. Ensure that there are **no false shorts** between the IP2368 and Type-C pins and to GND.
 3. Ensure LEDs are oriented and colored correctly.
 4. When connected to a standard Type-C PD power supply and **without** battery.
@@ -79,3 +79,11 @@ Be careful **NOT** to allow parts to run over, wrap around, or rub the wires.
 **Q**: Why does the red light not go out and the blue light not come on after a full charge?
 
 **A**: If the red light does not flash when the battery is inserted, the capacitor was charged when the battery was replaced and did not recognize the new battery correctly. Just disconnect the battery and wait for the capacitor to discharge and reinsert it. If the red light blinks four times when the battery is inserted, it means that the MOSFET G-pin is disconnected, so re-solder them.
+
+**Q**: Why does Type-C not make good contact when plugged in?
+
+**A**: Presence of flux in Type-C causing isolated contacts or the temperature or time spent soldering the Type-C is excessive, clean the Type-C or use a new Type-C connector.
+
+**Q**: Why is the input normal but the output blinks red and blue at the same time and the blue blinks for a shorter time than the red?
+
+**A**: Major circuits such as inductors have false soldering, re-solder them.
