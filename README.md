@@ -54,6 +54,8 @@ You can refer to the following procedure to verify that the PCB is working, and 
 
 **CylinderFan-Electronic-Body.stl** - Print the LED translucent faces with a white filament. Add support to bottom slide.
 
+**CylinderFan-Electronic-KnobRing.stl** - Print with TPU and controlle damping through fuzzy skin.
+
 **CylinderFan-Battery-\*.stl** - If you select a finished battery, you only need to print the CylinderFan-Battery-Adapter\*.stl part,  otherwise print other STLs.
 
 ### Assembly
