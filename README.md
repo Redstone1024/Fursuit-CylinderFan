@@ -4,6 +4,8 @@ A Simple Rechargeable Cylinder Fan for Fursuit Heads
 
 ## Installation
 
+> **Note**: The BOM.csv is based on the Type-C with finished battery variant, if you choose another variant please read below first.
+
 ### PCB
 
 First, solder the components to the PCB, you can refer to the method provided in the [Link](https://www.myredstone.top/archives/5215).
@@ -11,9 +13,11 @@ First, solder the components to the PCB, you can refer to the method provided in
 The non-silkscreened 0Ohm resistor next to U3 is used to configure the fan PWM positive and negative.
 For DV05028B12U, use the 0Ohm resistor to connect pad closest to **inside** PCB (positive PWM).
 
-The JP2 connector is used to connect the battery level indicator module, so **don't** solder XH2.54-2P.
+The JP2 connector is used to connect the battery level indicator module, so **don't** solder PZ2.54-2X2P.
 
-You can refer to the following procedure to verify that the PCB is working, and reproduce the soldering of J1 or U1 if there is an abnormality.
+If you choose the DC version, you only need to solder C21 C22 JP1 JP3 JP4 R23 R24 R25 R26 U2 U3 VR1.
+
+If you choose the Type-C version, You can refer to the following procedure to verify that the PCB is working, and refer FAQ if there is an abnormality.
 
 > **Note**: No abnormally high temperatures in the IC and other components throughout the process.
 
@@ -52,7 +56,9 @@ You can refer to the following procedure to verify that the PCB is working, and 
 
 **CylinderFan-Nozzle-\*.stl** - Add support to the outer circle below. Pause the print and add the magnet while the magnet hole closes the layer.
 
-**CylinderFan-Electronic-Body.stl** - Print the LED translucent faces with a white filament. Add support to bottom slide.
+**CylinderFan-Electronic-Body-\*.stl** - Select one of the DC and Type-C versions to print.
+
+**CylinderFan-Electronic-Body-Type-C.stl** - Print the LED translucent faces with a white filament. Add support to bottom slide.
 
 **CylinderFan-Electronic-KnobRing.stl** - Print with TPU and controlle damping through fuzzy skin.
 
@@ -60,7 +66,15 @@ You can refer to the following procedure to verify that the PCB is working, and 
 
 ### Assembly
 
-Just assemble according to CAD drawings.
+A total of three to five AWG24 wires are required:
+
+- **Red** - Connect pin 1 of the toggle switch to pin 4 of PCB JP2.
+- **Yellow** - Connect pin 2 of the toggle switch to pin 3 of PCB JP2 and the positive of the Li-ion battery level indicator module.
+- **Black** - Connect pin 3 of the toggle switch to pin 2 of PCB JP2 and the negative of the Li-ion battery level indicator module.
+
+Be careful to route these wires through CylinderFan-Electronic-KnobTop.stl and CylinderFan-Electronic-Potentiometer.stl and not to impede the rotation of the structure.
+
+The other parts are simply assembled according to the CAD drawings.
 
 Be careful **NOT** to allow parts to run over, wrap around, or rub the wires.
 
