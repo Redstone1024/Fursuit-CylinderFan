@@ -1,5 +1,5 @@
 Category,Qty,Value,Device,Package,Parts,JLC Number,Cost (RMB),Total (RMB),Notes
-Hardware,1,DV05028B12U,Server Inverter PWM Cooling Fan,5028,Master,Taobao,21,21,https://m.tb.cn/h.gbQBr1m?tk=4LJfWsM5NdT
+Hardware,1,DV05028B12U,Server Inverter PWM Cooling Fan,5028,Master,Taobao,21,21,https://item.taobao.com/item.htm?id=523104273886&skuId=4971326873374 (Additional information required)
 Hardware,4,M6x2 N52,RuFeBe Magnet,Print Pause Insert,Master,Taobao,0.3,1.2,
 Hardware,6,M3x8 SHCS,Socket Head Cap Screw,Screw Insert,Master,Taobao,0.06,0.36,
 Hardware,6,M3 Heatset Insert,Heatset Insert,Heatset Insert,Master,Taobao,0.142,0.852,
@@ -16,8 +16,8 @@ Electronics,1,15V,Zener Diode,LL-34,D3,C2982205,0.083934,0.083934,
 Electronics,2,5819,Schottky Diode,SOD-123,D4 D5,C64885,0.090075,0.18015,"Used to improve efficiency, NC can be used instead."
 Electronics,1,TYPE-C-16P-FH,Type-C Connector,SMD,J1,C709357,0.537857,0.537857,Detailed models refer to drawings.
 Electronics,1,2 Pin,XH Pin Header,PTH,JP1,C5341201,0.10188,0.10188,Detailed models refer to drawings.
-Electronics,1,4 Pin,2510 Pin Header,PTH,JP3,Taobao,0.08,0.08,https://m.tb.cn/h.5xQs6Mhxx7MnwSl?tk=3AZoWoS7zzc
-Electronics,0,2 Pin,DC005-5.5X2.5,PTH,JP4,Taobao,0.07,0,https://m.tb.cn/h.ge11YE1cVjtWLr9?tk=rYvOWDYYVi4
+Electronics,1,4 Pin,2510 Pin Header,PTH,JP3,Taobao,0.08,0.08,https://item.taobao.com/item.htm?id=611332398478&skuId=4300784084698
+Electronics,0,2 Pin,DC005-5.5X2.5,PTH,JP4,Taobao,0.07,0,https://item.taobao.com/item.htm?id=619138494923&skuId=4372492253675
 Electronics,1,5.6uH,Buck-Boost Inductor,12XX,L1,C408522,4.49,4.49,
 Electronics,1,Green,Chip LED,0603,LED1,C84267,0.096338,0.096338,Greater than 65W Indicator (This is almost impossible to happen).
 Electronics,1,Red,Chip LED,0603,LED2,C84263,0.059304,0.059304,Battery charging indicator.
@@ -42,13 +42,13 @@ Electronics,1,0Ohm,Chip Resistor,0603,R25 R26,C15402,0.005373,0.005373,"Used to 
 Electronics,1,IP2368_BZ/IP2368_COUT,Chip IC,QFN-48(7X7),U1,Taobao,10,10,IP2368_COUT is an upgraded version with added bi-directional charging and discharging capabilities.
 Electronics,1,AP2204K-5.0TRG1,Chip LDO,SOT23-5,U2,C112031,0.9611,0.9611,
 Electronics,1,GP9101-F20K-L5H5-SW,Chip IC,SOP-8,U3,C20415753,2.98,2.98,L5H5 Indicates a direct 0%/100% duty cycle PWM output for the lowest/highest 5%.
-Electronics,1,RV097NS R1S1 10kOhm,Potentiometer,PTH,VR1,Taobao,0.9,0.9,https://m.tb.cn/h.5xQtCXDX8bdXLJV?tk=aTwHWoS8oQx
+Electronics,1,RV097NS R1S1 10kOhm,Potentiometer,PTH,VR1,Taobao,0.9,0.9,https://item.taobao.com/item.htm?id=734259779794&skuId=5075259536179
 Electronics,0,5000mAH,Li-ion Battery,21700,Battery,Taobao,16.9,0,
-Electronics,0,2 Pin,XH Pin,Wiring,JP1,Taobao,0.02,0,https://m.tb.cn/h.5xA4rsZ7O6otBoX?tk=l3hIWoSk1EH
-Module,0,3S 12.6V,Li-ion Battery Protection Module,Wiring,JP1,Taobao,6.33,0,https://m.tb.cn/h.5xAeXbW3B9YVp9a?tk=P89VWoSj9sX
-Module,1,3S 12.6V,Li-ion Battery Level Indicator Module,Wiring,JP2,Taobao,6.5,6.5,https://m.tb.cn/h.5C8AmuhibY3OzK3?tk=SOJpWoS8mzm
-Module,1,3S 12.6V XH2.54 Female No. 2 Wire Sequence,Lithium Battery Pack,Wiring,JP1,Taobao,79,79,https://m.tb.cn/h.5ArwGGE8BjNeA4H?tk=7LZaWqBgcbV
-Module,1,12V 1.65A,Toggle Switch,Wiring,JP2,Taobao,0.104,0.104,https://m.tb.cn/h.gb9f84NBrwxm58f?tk=FT8TWsMOmpE
+Electronics,0,2 Pin,XH Pin,Wiring,JP1,Taobao,0.02,0,https://item.taobao.com/item.htm?id=520552509861&skuId=4139959196754
+Module,0,3S 12.6V,Li-ion Battery Protection Module,Wiring,JP1,Taobao,6.33,0,https://detail.tmall.com/item.htm?id=558346048387&skuId=4196293570698
+Module,1,3S 12.6V,Li-ion Battery Level Indicator Module,Wiring,JP2,Taobao,6.5,6.5,https://detail.tmall.com/item.htm?id=624895263635&skuId=4590761114594
+Module,1,3S 12.6V XH2.54 Female No. 2 Wire Sequence,Lithium Battery Pack,Wiring,JP1,Taobao,79,79,https://item.taobao.com/item.htm?id=635344873890&skuId=5056598004926 (Additional information required)
+Module,1,SS12F15V G6,Toggle Switch,Wiring,JP2,Taobao,0.104,0.104,https://detail.tmall.com/item.htm?id=607540947052&skuId=4261603081607
 Wire,450,AWG24,Silicone Soft Wire,-,-,Taobao,0.00064,0.288,
 Filament,0.01,1KG,TPU,-,-,Taobao,100,1,
 Filament,0.32,1KG,PLA,-,-,Taobao,29.9,9.568,
