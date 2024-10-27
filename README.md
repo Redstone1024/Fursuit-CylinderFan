@@ -40,18 +40,24 @@ If you choose the Type-C version, You can refer to the following procedure to ve
 2. Ensure that there are **no false shorts** between the IP2368 and Type-C pins and to GND.
 3. Ensure LEDs are oriented and colored correctly.
 4. When connected to a standard Type-C PD power supply and **without** battery.
-    1. Ensure the power supply should be around **20V**.
-	2. Ensure the power supply should be around **0.6W**.
-	3. Ensure the C2 voltage should be around **12.6V**.
+	1. Ensure the red light are **on** and the blue light is **off**.
+	2. Ensure the green light are on if the power supply supports 20V.
+    3. Ensure the power supply should be around **20V** (or 5V, 9V, 12V, 15V depending on the power supply).
+	4. Ensure the power supply should be around **0.6W**.
+	5. Ensure the C2 voltage should be around **12.6V**.
 5. Insert a battery of less than **50%** capacity, ensure the red light blinks **4** times and then goes out.
 6. When connected to a standard Type-C PD power supply with a **50%** capacity battery (**Pay attention to high temperature**).
-	1. Ensure the red light comes on quickly and without blinking.
-	2. Within IC protocol negotiation, ensure the power supply should be around **0.6W**.
-	3. After IC protocol negotiation, ensure the power supply should be about **24W** (12W for 5V, 9V, 12V, 15V).
-	4. After IC protocol negotiation, ensure the voltage across R9 should be **10mV** (**right** end is positive).
-7. After unplugging the standard Type-C PD power supply, ensure the red light goes off in about 1 second.
+	1. Ensure the red light **comes on quickly without blinking** and the blue light is **off**.
+	2. Ensure the green light are on if the power supply supports 20V.
+	3. Within IC protocol negotiation, ensure the power supply should be around **0.6W**.
+	4. After IC protocol negotiation, ensure the power supply should be about **24W** (or 12W for 5V, 9V, 12V, 15V).
+	5. After IC protocol negotiation, ensure the voltage across R9 should be **10mV** (**right** end is positive).
+7. After unplugging the standard Type-C PD power supply, ensure the red and green lights goes off in about 1 second.
 8. When the battery is fully charged, ensure the red light will be off and the blue light wull be on.
-9. Ensure Type-C can support PD3.0 30W, APPEL 2.4A, BC1.2DCP, QC3.0 5V-12V, AFC 25W, FCP 24W, SCP 25W, etc.
+9. When connected to a fast charging protocol tester.
+	1. Ensure the red light **comes on quickly without blinking** and the blue light is **off**.
+	2. Ensure the green light are on if you are testing outputs above 15V.
+	3. Ensure support PD3.0 30W, APPEL 2.4A, BC1.2DCP, QC3.0 5V-12V, AFC 25W, FCP 24W, SCP 25W, etc.
 10. Connect the fan and make sure the fan can rotate and adjust the speed properly.
 11. Ensure the battery level meter can correctly display the battery level.
 
